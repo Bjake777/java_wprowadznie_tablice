@@ -44,7 +44,7 @@ public class Zadanie1 {
             surname[7]+""+
             surname[8]+""+
             surname[9]+""+
-            surname[10]
+            surname[10]+" ["+surname.length+"]"
         );
         System.out.println();
         System.out.println("age"+age);
