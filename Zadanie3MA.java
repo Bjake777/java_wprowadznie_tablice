@@ -29,6 +29,21 @@ public class Zadanie3MA {
             System.out.println();
         }
         System.out.println("-----------------------------");
+
+        System.out.println(crossword[1][2]);
+        System.out.println(crossword[0][0]);
+        crossword[2][5] = 'y';
+        System.out.println(crossword[1].length);
+
+        System.out.println("-----------------------------");
+        for (int i = 0; i < crossword.length; i++) {
+            for (int j = 0; j < crossword[i].length; j++) {
+                System.out.print(crossword[i][j]);
+            }
+            System.out.println();
+        }
+        System.out.println("-----------------------------");
+
     }
     
 }
